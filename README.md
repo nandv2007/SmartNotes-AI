@@ -1,1 +1,1 @@
-# SmartNotes-AI
+# SmartNotes-Summariser
