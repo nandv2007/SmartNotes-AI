@@ -52,7 +52,7 @@
   </style>
 </head>
 <body>
-  <h1>SmartNotes-AI 🧠</h1>
+  <h1>SmartNotes-Summariser</h1>
   <textarea id="inputText" placeholder="Paste your notes here..."></textarea>
   <button onclick="summarizeText()">Summarize</button>
   <div id="summary"></div>
@@ -61,12 +61,12 @@
     async function summarizeText() {
       const text = document.getElementById("inputText").value;
       if (!text) {
-        alert("Please enter some text!");
+        alert("Please enter the notes!");
         return;
       }
       // For now, this is a simulated AI summary
       document.getElementById("summary").innerHTML = 
-        `<strong>Summary:</strong> ${text.slice(0, 100)}... (AI summary coming soon!)`;
+        `<strong>Summary:</strong> ${text.slice(0, 100)}... (website underconstruction)`;
     }
   </script>
 </body>
